@@ -17,7 +17,9 @@
 // --------------------1) Create a function that takes a number as an argument and decides if the number is evenly divisble by three or not.
 
 // a) Create a test with expect statements for each of the variables provided.
-
+describe (divideByThree, () => {
+    
+})
 var num1 = 15
 // Expected output: "15 is divisible by three"
 
