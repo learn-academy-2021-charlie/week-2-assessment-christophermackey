@@ -65,3 +65,8 @@ console.log(learnStudent)
 
 // a) Your answer: Learn{student: "George", cohort: "Charlie", year:2021}
 // b) Verify and explain: Correct! The class 'Learn' is declared with a constructor method that initializes objects for the class. The learnStudent variable is creating a single instance of the Learn object with the 'new' operator followed by the name of the class. Finally, the variable learnStudent is logged to the console. This will log an object with the name of Learn followed by a set of curly braces with key-value pairs inside. The Learn class is acting as a blueprint so it can be called upon later in the code.
+var vowelTester1 = "learn"
+// Expected output: 1
+var vowelTester2 = "academy"
+// Expected output: 0
+var vowelTester3 = "challenge"
