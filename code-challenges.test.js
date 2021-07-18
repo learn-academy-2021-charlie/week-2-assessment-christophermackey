@@ -130,11 +130,21 @@ describe("firstVowelFinder", () => {
 // add a conditional that finds if letter variable is a vowel
 // return index
 
+// const firstVowelFinder = (string) => {
+//     for (let i = 0; i < string.length; i++) {
+//         var letter = string.charAt(i)
+//         if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u") {
+//             return i
+//         }
+//     }
+// }
+
+// This can be refactored without the "letter" variable
+
 const firstVowelFinder = (string) => {
     for (let i = 0; i < string.length; i++) {
-        var letter = string.charAt(i)
-        if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u") {
-            return i
+        if(string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u") {
+            return string.indexOf(string[i])
         }
     }
 }
